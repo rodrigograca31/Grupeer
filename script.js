@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Grupeer bulk download agreements
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  Download all Grupeer agreements PDFs
 // @author       Alberizo
 // @match        https://www.grupeer.com/my-investments*
@@ -97,7 +97,8 @@
 					.find(".flex-block:first a")
 					.text()
 					.trim();
-				var agreement_id = url_pdf.substr(url_pdf.lastIndexOf("/") + 1);
+				var agreement_id =
+					Number(url_pdf.substr(url_pdf.lastIndexOf("/") + 1)) + 1000;
 
 				if (counter_loans == number_loans) {
 					setTimeout(function () {
