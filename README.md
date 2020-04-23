@@ -1,6 +1,4 @@
-# Grupeer
-
-Grupeer agreements - bulk download
+## Grupeer agreements - bulk downloader
 
 ## Steps:
 
