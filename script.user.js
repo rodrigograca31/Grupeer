@@ -31,7 +31,7 @@
 		$table_header
 			.children(".flex-block:last")
 			.append(
-				'<div id="downloadpdf"><span class="savepdfs" style="cursor:pointer" title="Download all agreements of this page">💾</span></div>'
+				'<div id="downloadpdf"><span class="savepdfs" style="cursor:pointer;font-size: 20px;margin: 5px;" title="Download all agreements of this page">💾</span></div>'
 			);
 		var $downloadpdf = $table_header.find("#downloadpdf");
 		$downloadpdf.find(".savepdfs").click(function () {
