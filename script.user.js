@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Grupeer bulk download agreements
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  Download all Grupeer agreements PDFs
 // @author       Rodrigo Graça (based on Alberizo work)
 // @match        https://www.grupeer.com/my-investments*
 // @match        https://www.grupeer.com/*/my-investments*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/rodrigograca31/Grupeer/master/script.js
-// @downloadURL  https://raw.githubusercontent.com/rodrigograca31/Grupeer/master/script.js
+// @updateURL    https://raw.githubusercontent.com/rodrigograca31/Grupeer/master/script.user.js
+// @downloadURL  https://raw.githubusercontent.com/rodrigograca31/Grupeer/master/script.user.js
 // ==/UserScript==
 
 (function () {
